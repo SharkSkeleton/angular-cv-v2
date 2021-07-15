@@ -1,0 +1,12 @@
+.save-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.custom-logo {
+  width: 21px;
+  height: 28px;
+}
+

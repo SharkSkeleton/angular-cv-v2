@@ -1,0 +1,89 @@
+.main-card {
+  width: 80vw;
+  margin: 5vh 10vw;
+}
+
+li {
+  list-style: none;
+}
+
+.main-header-image {
+  /*background-image: url('src/assets/foto/me.jpeg');*/
+  background-size: cover;
+  min-width: 5.5vw;
+  height: 10vh;
+  max-height: 12vh;
+}
+
+.main-header-spacer {
+  flex: 1 1 auto;
+}
+
+.main-header-communication {
+  right: 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.experience-card {
+  min-width: 33vw;
+  max-width: 33vw;
+  margin: 2vw;
+}
+.my-tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 0.5vw;
+}
+
+.my-tooltip .my-tooltip-text {
+  visibility: hidden;
+  opacity: 50%;
+  min-width: 5vw;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.6em;
+
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 100%;
+  right: -130%;
+}
+
+.my-tooltip:hover {
+  background-color: lightblue;
+  border-radius: 0.6em;
+}
+
+.my-tooltip:hover .my-tooltip-text {
+  visibility: visible;
+}
+
+.custom-logo {
+  width: 21px;
+  height: 28px;
+}
+
+.logo-holder {
+  display: flex;
+}
+
+.language-list {
+  display: flex;
+}
+
+.hard-skills-elements {
+  min-width: 10vw;
+  margin: 1vw;
+  border-radius: 1.5em;
+  background-color: lightgray;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
